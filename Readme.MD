@@ -1,4 +1,4 @@
-# Keycloak 17 Docker compose example
+# Keycloak 17.0.1 Docker compose example
 
 - Add `host.docker.internal` to your hosts file
 
