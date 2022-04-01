@@ -1,18 +1,20 @@
-## Add `host.docker.internal` to your hosts file
+# Keycloak Docker compose example
 
-## Start postgres container
+- Add `host.docker.internal` to your hosts file
+
+- Start postgres container
 
 ```sh
 cd postgres
 docker-compose up -d
 ```
-## Create a database called `keycloak_postgres`
+- Create a database called `keycloak_postgres`
 
-## Start keycloak container
+- Start keycloak container
 
 ```sh
 cd keycloak
 docker-compose up -d
 ```
 
-## Access `https://localhost:8099`
+- Access [https://localhost:8099](https://localhost:8099)
